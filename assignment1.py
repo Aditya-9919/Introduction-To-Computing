@@ -21,7 +21,6 @@ sid = int(input("ENTER YOUR SID : "))
 name = input("ENTER YOUR NAME : ")
 gender = input("ENTER YOUR GENDER : ")
 course_name = input("ENTER YOUR COURSE NAME : ")
-'''SID, Name, Gender, Course_name in student'''
 CGPA = float(input("ENTER YOUR CGPA"))
 student = []
 student.append(sid)
