@@ -22,13 +22,10 @@ else:
 #printing nature of the year.
 year = int(input("Enter a year: "))
 
-if year % 400 == 0 :
-    print("year is a Leap Year")
-elif year % 4 == 0 and year%100!==0 :
-    print("year is not a Leap Year")
-else :
-    print("year is not a Leap Year")
-
+if year % 4 != 0 or (year % 100 == 0 and year % 400 != 0):
+    print("not a leap year")
+else:
+    print("leap year")
 #Q.3
     print("answer3")
 #printing random questions.
