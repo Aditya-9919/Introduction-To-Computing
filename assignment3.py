@@ -46,6 +46,7 @@ print("QUESTION 3")
 print()
 
 #question 3(a.)
+#import math
 #   (3+4)*5
 
 #question 3(b.)
