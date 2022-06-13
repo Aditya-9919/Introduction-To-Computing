@@ -9,7 +9,7 @@ print("the binary number is :", bin(number)[2::])  # using the inbuilt function
 print()
 print("QUESTION 2")
 print()
-
+#building a simple calculator.
 choice = input('''
 Please select the type of operation you want to perform:
 + for addition
@@ -64,7 +64,7 @@ print()
 print()
 print("QUESTION 4")
 print()
-
+#printing numbers in range.
 for i in range(5):
     print(i, end=" ")
 print()
@@ -88,6 +88,7 @@ print()
 print()
 print("QUESTION 5")
 print()
+#printing molecular weight.
 atom1=int(input("Carbon Atoms -> "))
 atom2=int(input("Hydrogen Atoms -> "))
 atom3=int(input("Oxygen Atoms -> "))
