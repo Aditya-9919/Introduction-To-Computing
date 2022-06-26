@@ -1,6 +1,15 @@
 
 #question-1------------------------------------------------------------------------------------------------------------------
 
+def reverse(s):              #define the reverse function
+    str = " "
+    for i in s:               #using loop to reverse the string
+        str = i+str
+    return str
+
+s= str(input("write the string:"))
+print("original string:",s)
+print("reversed string is:",reverse(s) )
 
 #question-2-------------------------------------------------------------------------------------------------------------------
 print("ANS.2")
