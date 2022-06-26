@@ -2,6 +2,10 @@ Python 3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (
 Type "help", "copyright", "credits" or "license()" for more information.
 >>> 
 =========== RESTART: C:/Users/Lenovo/OneDrive/Desktop/Assignment 5.py ==========
+ANS.1
+write the string:lotus
+original string: lotus
+reversed string is: sutol 
 ANS.2
 Enter the minimum value :5
 Enter the maximum value: 60
