@@ -23,13 +23,13 @@ The sentence is panagram.
 Enter the string with hyphen separated sequence to arrange it in alphabetical order : green-red-yellow-black-white
 black-green-red-white-yellow 
 ###################### Question 6 #####################
-Enter the Student ID : 21102076
+Enter the Student ID : 21102116
 If you want to enter only student name then press n, only student class then c or both then b : b
-Enter the Student's Name : Abhineet Mishra
+Enter the Student's Name : Aditya Kumar Singh
 Enter the Student's class : Semester 2
 ### Data Print ###
-Student ID :  21102076
-Student Name :  Abhineet Mishra
+Student ID :  21102116
+Student Name :  Aditya Kumar Singh
 Student Class :  Semester 2
 ###################### Question 7 #####################
 The instance student_1 is a instance of class student :  True
