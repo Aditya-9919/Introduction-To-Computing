@@ -7,7 +7,7 @@ def reverse(s):              #define the reverse function
         str = i+str
     return str
 
-s= str(input("write the string:"))
+s= input("write the string:")
 print("original string:",s)
 print("reversed string is:",reverse(s) )
 
