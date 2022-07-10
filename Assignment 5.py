@@ -2,7 +2,7 @@
 #question-1------------------------------------------------------------------------------------------------------------------
 
 def reverse(s):              #define the reverse function
-    str = " "
+    str = ""
     for i in s:               #using loop to reverse the string
         str = i+str
     return str
