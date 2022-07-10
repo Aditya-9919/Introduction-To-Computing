@@ -25,22 +25,29 @@ else:
 
 print("###################### Question 3 #####################")
 
+def factorial(n):
+    if n==0:
+        return 1
+    return n*factorial(n-1)
 
-list=[1]
-space="  "
-rows=int(input("Enter the number of rows : "))
-for i in range(rows):
-    space=space+"   "
-a=[]
-for i in range(rows):
-    a=[]  
-    for k in list:
-        a.append(k)
-    print(space,list)
-    for j in range(1,len(list)):
-        list[j]=a[j-1]+a[j]
-    list.append(1)
-    space=space[:-2]
+def combination(n,r):
+    return factorial(n)//factorial(r)//factorial(n-r)
+
+row=int(input("Enter rows: "))
+
+for i in range(1,row+1):
+    k=1
+    l=0
+    for j in range(1,2*row):
+        if row+1-i<=j and row-1+i>=j and k:
+            print(combination(i-1,l),end="")
+            l+=1
+            k=0
+        else:
+            print(" ",end="")
+            k=1
+    print()        
+
 
 
 print("###################### Question 4 #####################")
